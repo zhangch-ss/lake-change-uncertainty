@@ -1,0 +1,4 @@
+1.运行er_area.py，计算面积不确定值，输入为GSW栅格数据，输出er_area.xlsx。
+2.手动整理面积不确定值为年尺度，对缺失值进行差值。年面积同样需要补充完整，整理后数据合并在了lake_area_zl.xlsx。
+3.运行er_level.py，计算水位不确定值，输入年面积和面积不确定值，以及湖泊面积水位数据对（用于构建方程，或者设置func_parameter参数构建方程），得到error_lake_level.xlsx。
+4.运行er_LWSC.py，计算蓄变量不确定值，输入年面积、水位及面积和水位的不确定值。得到error_LWS_change.xlsx
