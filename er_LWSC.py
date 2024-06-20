@@ -36,7 +36,6 @@ def er_LWS_change(a1_, a2_, e1_, e2_, er_a1,  er_a2, er_e1, er_e2):
     return er_lws
     # print(er_lws)
 
-
 lake_area = pd.read_excel('GSW/GSW_gahai/lake_area_zl.xlsx', sheet_name='lake_area_all')
 lake_level = pd.read_excel('GSW/GSW_gahai/lake_level.xlsx')
 er_area = pd.read_excel('GSW/GSW_gahai/lake_area_zl.xlsx', sheet_name='er_lake_area_all')
