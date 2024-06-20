@@ -69,4 +69,3 @@ for i in range(len(lake_area.iloc[0, :])):
 er_LWSC_arr = np.array(er_LWSC_list_list).transpose(1, 0)/1000000000
 df = pd.DataFrame(er_LWSC_arr.astype('float'))
 df.to_excel('error_LWS_change.xlsx', index=None)
-print(er_LWSC_arr.shape)
